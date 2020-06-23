@@ -1,0 +1,15 @@
+import turtle
+t = turtle.Turtle()
+
+t.circle(100)
+t.left(30)
+t.circle(100)
+t.left(30)
+t.circle(100)
+t.left(30)
+t.circle(100)
+t.left(30)
+t.circle(100)
+t.left(30)
+t.circle(100)
+t.left(30)
