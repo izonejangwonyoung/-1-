@@ -1,4 +1,4 @@
-num=int(input("입력: "))
+num: int=int(input("입력: "))
 sum=0
 i=1
 count=0
