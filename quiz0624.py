@@ -1,18 +1,22 @@
-a=int(input("숫자입력:"))
-s=0
-e=0
-while True:
-    e+=1
-    if s<a:
-        s=s+e
-        print("답은", s-e)
+num=int(input("입력: "))
+sum=0
+i=1
+count=0
 
-    else:
+while sum < num:
+    sum=sum+i
+    i=i+1
+    count=count+1
+    if sum>num:
+        sum=sum-(i-1)
         break
 
 
 
+for i in range(1,count):
+    if i==count-1:
+        print(i,end='')
+    else:
+        print("%d+"%i,end='')
 
-
-
-
+print("=%d" %(sum))
